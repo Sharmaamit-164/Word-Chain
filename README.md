@@ -1,4 +1,3 @@
-<img width="1292" height="1005" alt="Screenshot 2026-08-08 033041" src="https://github.com/user-attachments/assets/1f82590f-9076-4999-8785-b9ffcbf5de5e" />
 # 🎮 Word Chain Kids Game
 
 An educational Android application designed for children to improve their English vocabulary through an interactive word-chain game.
@@ -171,5 +170,8 @@ git clone https://github.com/your-username/word-chain-kids-game.git
 This project is developed for educational purposes and learning. Feel free to use and modify it for academic and personal projects.
 
 ---
+
+<img width="1292" height="1005" alt="Screenshot 2026-08-08 033041" src="https://github.com/user-attachments/assets/1f82590f-9076-4999-8785-b9ffcbf5de5e" />
+
 
 ⭐ If you like this project, don't forget to star the repository!
