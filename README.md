@@ -1,4 +1,3 @@
-<img width="512" height="512" alt="wordquest" src="https://github.com/user-attachments/assets/5b954967-c7f1-4f7a-8ed8-446df4f3b3fe" />
 # 🎮 Word Quest
 
 An educational Android game designed to improve English vocabulary through an interactive word-chain challenge.
@@ -188,14 +187,8 @@ git clone https://github.com/Sharmaamit-164/Word-Chain.git
 - LinkedIn: https://www.linkedin.com/in/amitks16
 
 ---
+<img width="1292" height="1005" alt="Screenshot 2026-08-08 033041" src="https://github.com/user-attachments/assets/10ed28fe-ddb2-4015-bceb-105f37e787d5" />
 
-## 🖼️ Word Quest Logo
-
-<p align="center">
-  <img src="screenshots/wordquest.png" alt="Word Quest Logo" width="300">
-</p>
-
----
 
 ## 📄 License
 
@@ -205,4 +198,4 @@ This project was developed for educational and learning purposes. Feel free to u
 
 <p align="center">
 ⭐ If you like this project, don't forget to star the repository!
-</p><img width="1292" height="1005" alt="Screenshot 2026-08-08 033041" src="https://github.com/user-attachments/assets/348db17c-cfe2-41b7-9db8-599917500704" />
+</p>
