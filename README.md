@@ -1,3 +1,4 @@
+<img width="512" height="512" alt="wordquest" src="https://github.com/user-attachments/assets/5b954967-c7f1-4f7a-8ed8-446df4f3b3fe" />
 # 🎮 Word Quest
 
 An educational Android game designed to improve English vocabulary through an interactive word-chain challenge.
