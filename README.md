@@ -1,10 +1,12 @@
-# 🎮 Word Chain Kids Game
+# 🎮 Word Quest
 
-An educational Android application designed for children to improve their English vocabulary through an interactive word-chain game.
+An educational Android game designed to improve English vocabulary through an interactive word-chain challenge.
+
+---
 
 ## 📖 About the Project
 
-Word Chain Kids Game helps children learn new English words while having fun. The game starts with a word, and the player must enter another valid word that begins with the last letter of the previous word.
+Word Quest is a fun and engaging Android application where players learn English vocabulary while playing. The game presents a word, and the player must enter another valid English word that starts with the last letter of the current word.
 
 ### Example
 
@@ -14,62 +16,75 @@ The game continues as long as the player enters correct words within the given t
 
 ---
 
-## 🎯 Features
+## ✨ Features
 
 - 👤 Player Name Registration
-- ⏱️ 15-Second Countdown Timer
+- ⏱️ Countdown Timer
 - 🔤 Word Chain Gameplay
-- 📊 Score Tracking
+- 📈 Live Score Tracking
+- 🔊 Sound Effects for Correct and Wrong Answers
 - 🎮 Game Over Screen
-- 🔄 Restart Functionality
-- 🧒 Child-Friendly Interface
+- 🏆 Success Screen
+- 🔄 Play Again Functionality
+- 🎨 Custom Word Quest App Icon
+- 📱 Child-Friendly User Interface
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Language:** Kotlin
-- **IDE:** Android Studio
-- **UI Design:** XML
-- **Timer:** CountDownTimer
-- **Architecture:** MVVM (Planned)
-- **Database:** Room Database (Future)
-- **API Integration:** Retrofit (Future)
+| Technology | Used |
+|------------|------|
+| Language | Kotlin |
+| IDE | Android Studio |
+| UI Design | XML |
+| Networking | Retrofit |
+| Timer | CountDownTimer |
+| Version Control | Git & GitHub |
 
 ---
 
-## 🎮 Game Rules
+## 🎯 Game Rules
 
 1. Enter your name and start the game.
-2. A word will be displayed.
-3. Enter a valid English word that starts with the last letter of the displayed word.
-4. You have 15 seconds to answer.
-5. Each correct answer increases your score.
-6. The timer resets after every correct answer.
+2. A word is displayed on the screen.
+3. Enter a valid English word starting with the last letter of the displayed word.
+4. Submit your answer before the timer ends.
+5. Every correct answer increases your score.
+6. The timer resets after each correct answer.
 7. The game ends if:
    - Time runs out
-   - An invalid word is entered
-   - The word starts with the wrong letter
-8. After Game Over, the player returns to Level 1 and starts again.
+   - Invalid word entered
+   - Word starts with the wrong letter
+8. After Game Over, the player can start again from Level 1.
 
 ---
 
-## 📱 Screens
+## 📱 Application Screens
 
-### Welcome Screen
-- Player Name Input
+### 🏠 Welcome Screen
+
+- Enter Player Name
 - Start Game Button
+- Designed By Amit Kumar Sharma
 
-### Game Screen
+### 🎮 Game Screen
+
 - Current Word Display
-- Countdown Timer
+- Timer Display
 - Score Display
 - Word Input Field
 - Submit Button
 
-### Game Over Screen
+### ❌ Game Over Screen
+
 - Final Score
 - Play Again Button
+
+### 🏆 Success Screen
+
+- Congratulations Message
+- Final Score Display
 
 ---
 
@@ -77,30 +92,38 @@ The game continues as long as the player enters correct words within the given t
 
 ```text
 app
-├── activities
-│   ├── MainActivity
-│   ├── GameActivity
-│   └── ResultActivity
-├── adapters
-├── models
-├── repository
-├── utils
-└── database
+├── src
+│   ├── main
+│   │   ├── java/com/example/wordquest
+│   │   │   ├── MainActivity.kt
+│   │   │   ├── GameActivity.kt
+│   │   │   ├── GameOverActivity.kt
+│   │   │   ├── SuccessActivity.kt
+│   │   │   └── network
+│   │   │       ├── DictionaryApi.kt
+│   │   │       └── RetrofitClient.kt
+│   │   └── res
+│   │       ├── layout
+│   │       ├── drawable
+│   │       ├── mipmap
+│   │       └── raw
+│   │           ├── correct.mp3
+│   │           └── wrong.mp3
 ```
 
 ---
 
 ## 🚀 Future Enhancements
 
-- Dictionary API Integration
-- High Score System
-- Leaderboard
-- Multiple Difficulty Levels
-- Sound Effects
-- Animations
-- Category-Based Learning
-- Multiplayer Mode
-- Voice Input Support
+- 🌐 Dictionary API Validation
+- 🏅 High Score System
+- 📊 Leaderboard
+- 🎚️ Multiple Difficulty Levels
+- 🎨 Better Animations
+- 🗂️ Category-Based Learning
+- 👥 Multiplayer Mode
+- 🎤 Voice Input Support
+- ☁️ Online Score Storage
 
 ---
 
@@ -134,29 +157,29 @@ Next Word
 
 ## ⚙️ Installation
 
-### Clone the Repository
+### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/word-chain-kids-game.git
+git clone https://github.com/Sharmaamit-164/Word-Chain.git
 ```
 
 ### Open in Android Studio
 
 1. Open Android Studio
-2. Click "Open Project"
-3. Select the cloned repository
-4. Sync Gradle
-5. Run the application
+2. Click Open Project
+3. Select the Word Quest project
+4. Sync Gradle Files
+5. Run the Application
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Developer
 
-**Amit Sharma**
+**Amit Kumar Sharma**
 
-- B.Tech (2024–2028)
-- Centurion University of Technology and Management
-- Aspiring Full Stack & Android Developer
+🎓 B.Tech (2024–2028)  
+🏫 Centurion University of Technology and Management  
+💻 Aspiring Full Stack & Android Developer
 
 ### Connect With Me
 
@@ -165,13 +188,20 @@ git clone https://github.com/your-username/word-chain-kids-game.git
 
 ---
 
-## 📄 License
+## 🖼️ Word Quest Logo
 
-This project is developed for educational purposes and learning. Feel free to use and modify it for academic and personal projects.
+<p align="center">
+  <img src="screenshots/wordquest.png" alt="Word Quest Logo" width="300">
+</p>
 
 ---
 
-<img width="1292" height="1005" alt="Screenshot 2026-08-08 033041" src="https://github.com/user-attachments/assets/1f82590f-9076-4999-8785-b9ffcbf5de5e" />
+## 📄 License
 
+This project was developed for educational and learning purposes. Feel free to use and modify it for academic and personal projects.
 
+---
+
+<p align="center">
 ⭐ If you like this project, don't forget to star the repository!
+</p><img width="1292" height="1005" alt="Screenshot 2026-08-08 033041" src="https://github.com/user-attachments/assets/348db17c-cfe2-41b7-9db8-599917500704" />
