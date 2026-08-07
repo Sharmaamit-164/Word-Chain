@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F9FF"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="🎮 WORD QUEST"
+        android:textColor="#1565C0"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="25dp"
+        android:text="⭐ Level 1"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/tvLevel"
+        android:layout_alignParentEnd="true"
+        android:text="🏆 Score: 0"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTimerLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLevel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="⏳ Time Left"
+        android:textColor="#616161"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTimerLabel"
+        android:layout_centerHorizontal="true"
+        android:text="15"
+        android:textColor="#E53935"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvWordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTimer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Start With Letter"
+        android:textColor="#616161"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCurrentWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvWordLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="A"
+        android:textColor="#1E88E5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etWord"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@id/tvCurrentWord"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Enter a word starting with A"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/etWord"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#4CAF50"
+        android:text="🚀 SUBMIT"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
